@@ -7,9 +7,7 @@
     "plugin:prettier/recommended",
     "plugin:storybook/recommended"
   ],
-  "plugins": [
-    "simple-import-sort"
-  ],
+  "plugins": ["simple-import-sort"],
   "rules": {
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error",
@@ -32,9 +30,7 @@
   },
   "overrides": [
     {
-      "files": [
-        "*.js"
-      ],
+      "files": ["*.js"],
       "rules": {
         "unicorn/prefer-module": "off"
       }
