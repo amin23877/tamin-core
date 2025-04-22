@@ -4,7 +4,6 @@ const config = {
     "references-empty": [1, "never"],
     "footer-max-line-length": [0, "always"],
     "body-max-line-length": [0, "always"],
-    "test-lklsjd": "mskjd",
   },
 };
 
