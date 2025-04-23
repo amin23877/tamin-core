@@ -1,7 +1,8 @@
 {
-  "name": "@amin23877/tamin-core.git",
+  "name": "@amin23877/tamin-core",
   "version": "1.0.0",
   "type": "module",
+  "private": false,
   "repository": {
     "url": "git+https://github.com/amin23877/tamin-core.git"
   },
