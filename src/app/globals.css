@@ -1,6 +1,67 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+@config "../../tailwind.config.ts";
+
+/* Font declarations for Vazir */
+@font-face {
+  font-family: 'Vazir';
+  src: url('/fonts/Vazir/woff2/Vazir-Thin-FD.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+    url('/fonts/Vazir/woff2/Vazir-Light-FD.woff2') format('woff2'),
+    url('/fonts/Vazir/woff/Vazir-Light-FD.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+    url('/fonts/Vazir/woff2/Vazir-Regular-FD.woff2') format('woff2'),
+    url('/fonts/Vazir/woff/Vazir-Regular-FD.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+    url('/fonts/Vazir/woff2/Vazir-Medium-FD.woff2') format('woff2'),
+    url('/fonts/Vazir/woff/Vazir-Medium-FD.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+    url('/fonts/Vazir/woff2/Vazir-Bold-FD.woff2') format('woff2'),
+    url('/fonts/Vazir/woff/Vazir-Bold-FD.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vazir';
+  src:
+    url('/fonts/Vazir/woff2/Vazir-Black-FD.woff2') format('woff2'),
+    url('/fonts/Vazir/woff/Vazir-Black-FD.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -76,6 +137,79 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --primary: #0095da;
+  --primary-1: #e6f7ff;
+  --primary-2: #bae9ff;
+  --primary-3: #7ad5ff;
+  --primary-4: #34bfff;
+  --primary-5: #15b5ff;
+  --primary-6: #0196db;
+  --primary-7: #007bb4;
+  --primary-8: #006b9d;
+  --primary-9: #024361;
+  --primary-10: #01354d;
+  --primary-11: #1a9ee5;
+  --primary-12: #1690d2;
+  --primary-16: rgba(0, 149, 218, 0.16);
+  --black: #202020;
+  --black-main: #232323;
+  --gray-1: #f8f9fb;
+  --gray-2: #e8e8eb;
+  --gray-3: #d8d8da;
+  --gray-4: #c3c3c5;
+  --gray-5: #a8a8aa;
+  --gray-6: #89898b;
+  --gray-7: #68686a;
+  --gray-8: #4a4a4b;
+  --gray-9: #323232;
+  --orange: #d66f00;
+  --orange-1: #fcf6f8;
+  --orange-2: #fbdbdd;
+  --orange-3: #f9af64;
+  --orange-4: #f99c9e;
+  --orange-5: #f86f70;
+  --orange-6: #0196db;
+  --orange-7: #007bb4;
+  --orange-8: #006b9d;
+  --orange-9: #024361;
+  --orange-10: #fff3e7;
+  --orange-16: rgba(214, 111, 0, 0.16);
+  --red: #f73b3b;
+  --red-1: #f73b3b;
+  --red-2: #fbdbdd;
+  --red-3: #fac0c2;
+  --red-4: #f99c9e;
+  --red-5: #f86f70;
+  --red-6: #d93434;
+  --red-7: #bf2e2e;
+  --red-8: #fb0000;
+  --red-9: #7c1e1e;
+  --red-10: #631313;
+  --red-16: rgba(247, 59, 59, 0.16);
+  --green: #17b530;
+  --green-1: #f1f9f4;
+  --green-2: #d5f0db;
+  --green-3: #b5e6be;
+  --green-4: #8bd998;
+  --green-5: #55c868;
+  --green-6: #149f2a;
+  --green-7: #128c25;
+  --green-8: #0f741f;
+  --green-9: #0c5a18;
+  --green-10: #0b4915;
+  --green-16: rgba(23, 181, 48, 0.16);
+  --yellow: #ffbe18;
+  --yellow-1: #fdf9f3;
+  --yellow-2: #fdf2d7;
+  --yellow-3: #fde9b7;
+  --yellow-4: #fede8c;
+  --yellow-5: #fecf56;
+  --yellow-6: #e0a715;
+  --yellow-7: #c59312;
+  --yellow-8: #a47a0f;
+  --yellow-9: #805f0c;
+  --yellow-10: #624808;
 }
 
 .dark {
@@ -110,6 +244,79 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+
+  --primary: #0095da;
+  --primary-1: #e6f7ff;
+  --primary-2: #bae9ff;
+  --primary-3: #7ad5ff;
+  --primary-4: #34bfff;
+  --primary-5: #15b5ff;
+  --primary-6: #0196db;
+  --primary-7: #007bb4;
+  --primary-8: #006b9d;
+  --primary-9: #024361;
+  --primary-10: #01354d;
+  --primary-11: #1a9ee5;
+  --primary-12: #1690d2;
+  --primary-16: rgba(0, 149, 218, 0.16);
+  --black: #202020;
+  --black-main: #232323;
+  --gray-1: #f8f9fb;
+  --gray-2: #e8e8eb;
+  --gray-3: #d8d8da;
+  --gray-4: #c3c3c5;
+  --gray-5: #a8a8aa;
+  --gray-6: #89898b;
+  --gray-7: #68686a;
+  --gray-8: #4a4a4b;
+  --gray-9: #323232;
+  --orange: #d66f00;
+  --orange-1: #fcf6f8;
+  --orange-2: #fbdbdd;
+  --orange-3: #f9af64;
+  --orange-4: #f99c9e;
+  --orange-5: #f86f70;
+  --orange-6: #0196db;
+  --orange-7: #007bb4;
+  --orange-8: #006b9d;
+  --orange-9: #024361;
+  --orange-10: #fff3e7;
+  --orange-16: rgba(214, 111, 0, 0.16);
+  --red: #f73b3b;
+  --red-1: #f73b3b;
+  --red-2: #fbdbdd;
+  --red-3: #fac0c2;
+  --red-4: #f99c9e;
+  --red-5: #f86f70;
+  --red-6: #d93434;
+  --red-7: #bf2e2e;
+  --red-8: #fb0000;
+  --red-9: #7c1e1e;
+  --red-10: #631313;
+  --red-16: rgba(247, 59, 59, 0.16);
+  --green: #17b530;
+  --green-1: #f1f9f4;
+  --green-2: #d5f0db;
+  --green-3: #b5e6be;
+  --green-4: #8bd998;
+  --green-5: #55c868;
+  --green-6: #149f2a;
+  --green-7: #128c25;
+  --green-8: #0f741f;
+  --green-9: #0c5a18;
+  --green-10: #0b4915;
+  --green-16: rgba(23, 181, 48, 0.16);
+  --yellow: #ffbe18;
+  --yellow-1: #fdf9f3;
+  --yellow-2: #fdf2d7;
+  --yellow-3: #fde9b7;
+  --yellow-4: #fede8c;
+  --yellow-5: #fecf56;
+  --yellow-6: #e0a715;
+  --yellow-7: #c59312;
+  --yellow-8: #a47a0f;
+  --yellow-9: #805f0c;
+  --yellow-10: #624808;
 }
 
 @layer base {
@@ -119,4 +326,12 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Apply font to all elements */
+html,
+body {
+  font-family: 'Vazir', sans-serif;
+  color: var(--black);
+  font-size: 16px;
 }
