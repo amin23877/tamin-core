@@ -1,7 +1,13 @@
 {
   "name": "@amin23877/tamin-core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
