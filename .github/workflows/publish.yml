@@ -42,7 +42,7 @@ jobs:
       - name: Publish to GitHub npm Registry
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: npm publish ./dist
+        run: npm publish --access public 
 
       # - name: Notify Discord build Success
       #   uses: rjstone/discord-webhook-notify@v1
