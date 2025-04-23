@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "type": "module",
   "private": false,
-  "repository": {
-    "url": "git+https://github.com/amin23877/tamin-core.git"
-  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+},
+"repository": {
+    "type": "git",
+    "url": "https://github.com/amin23877/tamin-core.git"
+},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
