@@ -1,7 +1,10 @@
 {
-  "name": "tamin-core",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@amin23877/tamin-core.git",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/amin23877/tamin-core.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
