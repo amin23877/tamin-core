@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "repository": {
-    "url": "https://github.com/amin23877/tamin-core.git"
+    "url": "git+https://github.com/amin23877/tamin-core.git"
   },
   "scripts": {
     "dev": "next dev",
