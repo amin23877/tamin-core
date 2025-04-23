@@ -1,6 +1,6 @@
 {
   "name": "@amin23877/tamin-core",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
   "scripts": {
     "dev": "next dev",
