@@ -1,4 +1,3 @@
-import '@/app/globals.css';
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
 import { Slot } from '@radix-ui/react-slot';
 import { cva } from 'class-variance-authority';
