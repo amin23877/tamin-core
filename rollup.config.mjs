@@ -24,16 +24,17 @@ export default [
       },
     ],
     plugins: [
+      postcss({
+        extract: true,
+        extract: 'styles.css',
+        modules: true,
+        minimize: true,
+        sourceMap: true,
+      }),
       peerDepsExternal(),
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json', declaration: false }),
-      postcss({
-        extract: 'styles.css',
-        modules: false,
-        minimize: true,
-        sourceMap: true,
-      }),
     ],
     external: [
       ...Object.keys(packageJson.peerDependencies || {}),
