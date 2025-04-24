@@ -32,7 +32,7 @@ export default [
       postcss({
         extract: true,
         minimize: true,
-        modules: true,
+        modules: false,
       }),
     ],
     external: [
