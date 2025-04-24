@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,cAAc,wBAAwB,CAAC","sourcesContent":["export * from './components/ui/button';\r\n"]}
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,OAAO,mBAAmB,CAAA;AAC1B,cAAc,wBAAwB,CAAC","sourcesContent":["import \"@/app/globals.css\"\r\nexport * from './components/ui/button';\r\n"]}

@@ -1,5 +1,6 @@
 'use strict';
 
+require('@/app/globals.css');
 var jsxRuntime = require('react/jsx-runtime');
 var reactSlot = require('@radix-ui/react-slot');
 var classVarianceAuthority = require('class-variance-authority');
